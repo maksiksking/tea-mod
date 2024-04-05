@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "testingmod",
+	"version": "${version}",
+	"name": "Testin mod",
+	"description": "YEET",
+	"authors": [
+		"Maksiks"
+	],
+	"contact": {
+		"homepage": "https://youtu.be/dQw4w9WgXcQ?si=WULUUBbJFmEesC-H",
+		"sources": "https://youtu.be/dQw4w9WgXcQ?si=WULUUBbJFmEesC-H"
+	},
+	"license": "MIT",
+	"icon": "assets/testingmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.fabricmc.testin.Main"
+		],
+		"client": [
+			"com.fabricmc.testin.TestinModClient"
+		],
+		"fabric-datagen": [
+			"com.fabricmc.testin.TestinModDataGenerator"
+		]
+	},
+	"mixins": [
+		"testingmod.mixins.json",
+		{
+			"config": "modid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

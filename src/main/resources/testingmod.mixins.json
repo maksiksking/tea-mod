@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.fabricmc.testin.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"TestinMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
