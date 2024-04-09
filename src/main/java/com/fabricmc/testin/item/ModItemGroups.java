@@ -1,6 +1,7 @@
 package com.fabricmc.testin.item;
 
 import com.fabricmc.testin.Main;
+import com.fabricmc.testin.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,8 +15,12 @@ public class ModItemGroups {
             new Identifier(Main.MOD_ID, "tea"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tea"))
                     .icon(() -> new ItemStack(ModItems.GREEN_TEA)).entries((displayContext, entries) -> {
-                        entries.add(new ItemStack(ModItems.BLACK_TEA));
                         entries.add(new ItemStack(ModItems.GREEN_TEA));
+                        entries.add(new ItemStack(ModItems.BLACK_TEA));
+                        entries.add(new ItemStack(ModItems.MUSHROOM_TEA));
+
+                        // blocks
+                        entries.add(new ItemStack(ModBlocks.HAZARD_BLOCK));
                     }).build());
 
     public static void registerItemGroups() {

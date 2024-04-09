@@ -1,6 +1,9 @@
 {
   "item.teamod.green_tea": "Green tea",
   "item.teamod.black_tea": "Black tea",
+  "item.teamod.mushroom_tea": "Mushroom tea",
+
+  "block.teamod.hazard_block": "Hazard block",
 
   "itemgroup.tea": "Tea"
 }

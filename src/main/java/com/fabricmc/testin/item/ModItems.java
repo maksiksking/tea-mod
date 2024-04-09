@@ -1,6 +1,7 @@
 package com.fabricmc.testin.item;
 
 import com.fabricmc.testin.Main;
+import com.fabricmc.testin.item.custom.HoneySoundTeaItem;
 import com.fabricmc.testin.item.custom.TeaItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -13,13 +14,17 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item GREEN_TEA = registerItem("green_tea", new TeaItem(new FabricItemSettings()
-            .food(ModFoodComponents.GREEN_TEA)));
+            .food(ModFoodComponents.GENERIC_TEA)));
     public static final Item BLACK_TEA = registerItem("black_tea", new TeaItem(new FabricItemSettings()
-            .food(ModFoodComponents.GREEN_TEA)));
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item MUSHROOM_TEA = registerItem("mushroom_tea", new HoneySoundTeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.MUSHROOM_TEA)));
+
 
     private static void addItemsToFoodAndDrinkItemGroup(FabricItemGroupEntries entries) {
         entries.add(GREEN_TEA);
         entries.add(BLACK_TEA);
+        entries.add(MUSHROOM_TEA);
     }
 
     private static Item registerItem(String id, Item item) {

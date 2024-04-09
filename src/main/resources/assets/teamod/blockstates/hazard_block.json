@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "teamod:block/hazard_block"
+    }
+  }
+}

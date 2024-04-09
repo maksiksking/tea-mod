@@ -5,10 +5,11 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
-    public static final FoodComponent GREEN_TEA = new FoodComponent.Builder().hunger(0)
+    public static final FoodComponent GENERIC_TEA = new FoodComponent.Builder().hunger(1)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200), 1.0F)
             .build();
-    public static final FoodComponent BLACK_TEA = new FoodComponent.Builder().hunger(0)
-            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200), 1.0F)
+
+    public static final FoodComponent MUSHROOM_TEA = new FoodComponent.Builder().hunger(6)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 400), 0.5F)
             .build();
 }
