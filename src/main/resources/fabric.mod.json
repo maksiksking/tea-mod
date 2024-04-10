@@ -19,10 +19,10 @@
 			"com.fabricmc.testin.Main"
 		],
 		"client": [
-			"com.fabricmc.testin.TestinModClient"
+			"com.fabricmc.testin.TeaModClient"
 		],
 		"fabric-datagen": [
-			"com.fabricmc.testin.TestinModDataGenerator"
+			"com.fabricmc.testin.TeaModDataGenerator"
 		]
 	},
 	"mixins": [

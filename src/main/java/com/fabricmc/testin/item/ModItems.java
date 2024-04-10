@@ -17,6 +17,28 @@ public class ModItems {
             .food(ModFoodComponents.GENERIC_TEA)));
     public static final Item BLACK_TEA = registerItem("black_tea", new TeaItem(new FabricItemSettings()
             .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item GUELDER_ROSE_TEA = registerItem("guelder_rose_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item GINGER_TEA = registerItem("ginger_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item MINT_TEA = registerItem("mint_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item SEA_BUCKTHORN_TEA = registerItem("sea_buckthorn_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item BERRY_JAM_TEA = registerItem("berry_jam_mix_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item SOURSOUP_TEA = registerItem("soursoup_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item CHERRY_TEA = registerItem("cherry_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item HONEY_TEA = registerItem("honey_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+    public static final Item STRAWBERRY_MINT_ICE_TEA = registerItem("strawberry_mint_ice_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
+
+
+    public static final Item MYSTIC_RUNE_TEA = registerItem("mystic_rune_tea", new TeaItem(new FabricItemSettings()
+            .food(ModFoodComponents.GENERIC_TEA)));
     public static final Item MUSHROOM_TEA = registerItem("mushroom_tea", new HoneySoundTeaItem(new FabricItemSettings()
             .food(ModFoodComponents.MUSHROOM_TEA)));
 
@@ -24,6 +46,16 @@ public class ModItems {
     private static void addItemsToFoodAndDrinkItemGroup(FabricItemGroupEntries entries) {
         entries.add(GREEN_TEA);
         entries.add(BLACK_TEA);
+        entries.add(GUELDER_ROSE_TEA);
+        entries.add(GINGER_TEA);
+        entries.add(MINT_TEA);
+        entries.add(SEA_BUCKTHORN_TEA);
+        entries.add(BERRY_JAM_TEA);
+        entries.add(SOURSOUP_TEA);
+        entries.add(CHERRY_TEA);
+        entries.add(HONEY_TEA);
+        entries.add(STRAWBERRY_MINT_ICE_TEA);
+        entries.add(MYSTIC_RUNE_TEA);
         entries.add(MUSHROOM_TEA);
     }
 

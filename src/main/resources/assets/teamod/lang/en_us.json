@@ -1,7 +1,16 @@
 {
   "item.teamod.green_tea": "Green tea",
   "item.teamod.black_tea": "Black tea",
-  "item.teamod.mushroom_tea": "Mushroom tea",
+  "item.teamod.guelder_rose_tea": "Guelder rose tea",
+  "item.teamod.ginger_tea": "Ginger tea",
+  "item.teamod.mint_tea": "Mint tea",
+  "item.teamod.sea_buckthorn_tea": "Sea-buckthorn tea",
+  "item.teamod.berry_jam_mix_tea": "Berry jam mix tea",
+  "item.teamod.soursoup_tea": "Soursoup tea",
+  "item.teamod.cherry_tea": "Cherry tea",
+  "item.teamod.strawberry_mint_ice_tea": "Strawberry mint ice tea",
+  "item.teamod.honey_tea": "Honey tea",
+  "item.teamod.mystic_rune_tea": "Mystic rune tea",
 
   "block.teamod.hazard_block": "Hazard block",
 
