@@ -11,8 +11,21 @@
   "item.teamod.strawberry_mint_ice_tea": "Strawberry mint ice tea",
   "item.teamod.honey_tea": "Honey tea",
   "item.teamod.mystic_rune_tea": "Mystic rune tea",
+  "item.teamod.mushroom_tea": "Mushroom tea",
+  "item.teamod.microcosm_tea": "Microscosm tea",
+  "item.teamod.uranium_tea": "Microscosm tea",
+  "item.teamod.essence_of_loneliness": "Essence of loneliness",
+
+  "item.teamod.tea_leaves": "Tea leaves",
+  "item.teamod.cherry": "Cherry",
+  "item.teamod.mint": "Mint",
+  "item.teamod.uranium": "Uranium",
+
+  "item.teamod.hilvan": "Hilvan",
 
   "block.teamod.hazard_block": "Hazard block",
+
+  "effect.teamod.corrosion": "Corrosion",
 
   "itemgroup.tea": "Tea"
 }

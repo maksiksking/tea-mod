@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "teamod:block/tea_bush_block_stage3"
+  }
+}

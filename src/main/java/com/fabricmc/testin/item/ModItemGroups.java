@@ -15,7 +15,7 @@ public class ModItemGroups {
             new Identifier(Main.MOD_ID, "tea"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tea"))
                     .icon(() -> new ItemStack(ModItems.GREEN_TEA)).entries((displayContext, entries) -> {
-                        // items
+                        // teas
                         entries.add(new ItemStack(ModItems.GREEN_TEA));
                         entries.add(new ItemStack(ModItems.BLACK_TEA));
                         entries.add(new ItemStack(ModItems.GUELDER_ROSE_TEA));
@@ -29,6 +29,19 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModItems.STRAWBERRY_MINT_ICE_TEA));
                         entries.add(new ItemStack(ModItems.MYSTIC_RUNE_TEA));
                         entries.add(new ItemStack(ModItems.MUSHROOM_TEA));
+                        entries.add(new ItemStack(ModItems.MICROCOSM_TEA));
+                        entries.add(new ItemStack(ModItems.URANIUM_TEA));
+                        entries.add(new ItemStack(ModItems.ESSENCE_OF_LONELINESS));
+                        // add all other teas cfg
+
+                        // not teas
+                        entries.add(new ItemStack(ModItems.TEA_LEAVES));
+                        entries.add(new ItemStack(ModItems.CHERRY));
+                        entries.add(new ItemStack(ModItems.MINT));
+                        entries.add(new ItemStack(ModItems.URANIUM));
+
+                        // hilvan
+                        entries.add(new ItemStack(ModItems.HILVAN));
 
                         // blocks
                         entries.add(new ItemStack(ModBlocks.HAZARD_BLOCK));

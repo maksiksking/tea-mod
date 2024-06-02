@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teamod:tea_leaves"
+    },
+    {
+      "tag": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    }
+  ],
+  "result": {
+    "item": "teamod:mushroom_tea",
+    "count": 1
+  }
+}

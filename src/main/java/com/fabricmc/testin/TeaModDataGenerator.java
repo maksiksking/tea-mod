@@ -1,17 +1,20 @@
 package com.fabricmc.testin;
 
-import com.fabricmc.testin.datagen.TeaModLootTableProvider;
-import com.fabricmc.testin.datagen.TeaModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 
 public class TeaModDataGenerator implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
-//        FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
-//
-//        pack.addProvider(TeaModLootTableProvider::new);
-//        pack.addProvider(TeaModModelProvider::new);
+        // copy over if I need and stuff
+        FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
     }
+
+//    @Override
+//    public void buildRegistry(RegistryBuilder registryBuilder) {
+//        registryBuilder.addRegistry(RegistryKeys.DIMENSION_TYPE, tbdModDimensions::bootstrapType);
+//    }
 }
