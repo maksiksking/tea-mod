@@ -4,4 +4,4 @@ It's a lil silly Minecraft mod that I've been spending evenings the last few mon
 
 Currently the mod adds a few teas, some with interesting effects.
 
-I'm planning for this to be a part/dependency of a bigger mod that I'll be working on, it will include tea dimensions, tea magic, tea energy and a lot of stuff. As of currently it's just a concept though.
+I was orinally planning for this to be a part/dependency of a bigger mod that I'll be working on, it will include tea dimensions, tea magic, tea energy and a lot of stuff. As of currently, I'm putting this one on hold for a while due to a lack of time.
